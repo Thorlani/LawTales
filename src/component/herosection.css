@@ -1,0 +1,66 @@
+#bg {
+    background: linear-gradient(134.83deg, rgba(0, 0, 0, 0.4) 0.84%, rgba(0, 0, 0, 0.15) 97.99%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+}
+
+#grid {
+    display: grid;
+    grid-template-areas: "one two" "one three";
+    gap: 10%;
+}
+
+#one {
+    grid-area: one;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#two {
+    grid-area: two;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#three {
+    grid-area: three;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#btn {
+    background: linear-gradient(141.42deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.22) 96.87%);
+    box-shadow: 0px 4px 24px -1px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    #title {
+        position: relative;
+        left: -15rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #title {
+        position: relative;
+        left: -10rem;
+    }
+
+    #para {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    #small {
+        font-size: small;
+    }
+    #smaller {
+        font-size: 9px;
+    }
+}
