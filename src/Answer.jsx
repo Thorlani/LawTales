@@ -65,7 +65,7 @@ const Answer = () => {
       />
       <Subtopic
         title="Select Field of Law"
-        description="Select a field of law to get over 100 questions under the chosen field of law"
+        subtitle="Select a field of law to get over 100 questions under the chosen field of law"
       />
       <Card 
         content={""}
